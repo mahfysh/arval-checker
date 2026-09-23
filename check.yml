@@ -2,7 +2,7 @@ name: Arval monitor
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # co 15 min (repo publiczne). Dla prywatnego ustaw "*/30 * * * *"
+    - cron: "*/30 * * * *"   # co 15 min (repo publiczne). Dla prywatnego ustaw "*/30 * * * *"
   workflow_dispatch:          # przycisk "Run workflow" do recznego uruchomienia
 
 permissions:
